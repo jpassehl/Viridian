@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Collidable">
+    <Position X="3" Y="7" Width="2.75" />
+    <Members>
+      <Method Name="~Collidable" Hidden="true" />
+      <Method Name="Collidable" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAQIAAAAgAAAQCCCAGBAAAAAQAgCAgAAAAgAA=</HashCode>
+      <FileName>Viridian Engine\Collidable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollidableGroup&lt;C&gt;">
+    <Position X="0.5" Y="1" Width="2.25" />
+    <Members>
+      <Method Name="~CollidableGroup" Hidden="true" />
+      <Method Name="CollidableGroup" Hidden="true" />
+      <Method Name="getInstance" Hidden="true" />
+      <Field Name="instance" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="CollidableGroup&lt;C&gt;::CollidableCollection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\CollidableGroup.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAECEAAgAgAABAAEAAREAAAAFBMAQBQAAgAEAIAAA=</HashCode>
+      <FileName>Viridian Engine\CollidableGroup.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="collidable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionGroupCommandBase" Collapsed="true">
+    <Position X="13.75" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\CollisionGroupCommandBase.h</FileName>
+      <NewMemberFileName>Viridian Engine\CollisionTestCommandBase.h</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestPairCommand&lt;C1, C2&gt;">
+    <Position X="9.25" Y="6.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAgICAAAAA=</HashCode>
+      <FileName>Viridian Engine\CollisionTestPairCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestSelfCommand&lt;C&gt;">
+    <Position X="6.5" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\CollisionTestSelfCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager">
+    <Position X="6" Y="0.75" Width="2.5" />
+    <Members>
+      <Method Name="~CollisionManager" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Typedef Name="CollisionManager::CollisionTestCommands" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\CollisionManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CollisionManager::CollisionGroupTestCommands" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\CollisionManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CollisionManager::CollisionDeleteCommands" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\CollisionManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAAQAAAAAAAAAAABAAAAAAAIAAimACAAAY=</HashCode>
+      <FileName>Viridian Engine\CollisionManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="commandRegistrationBroker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RegDregCommandBase" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\RegDeregCommandBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionRegistrationCommand&lt;C&gt;" Collapsed="true">
+    <Position X="11.75" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="RegDregCommandBase" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="2.191" />
+        <Point X="10.75" Y="2.688" />
+        <Point X="11.75" Y="2.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAEAAAAAAAAgAAAAAAgAAAgAAA=</HashCode>
+      <FileName>Viridian Engine\CollisionRegistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDeregistrationCommand&lt;C&gt;" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="RegDregCommandBase" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="2.191" />
+        <Point X="10.75" Y="3.75" />
+        <Point X="11.75" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAgEAAAAAAAAgAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\CollisionDeregistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandRegistrationBroker" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="CommandRegistrationBroker::CommandList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\CommandRegistrationBroker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAEAAAIAAAgAACAAAg=</HashCode>
+      <FileName>Viridian Engine\CommandRegistrationBroker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionVolume">
+    <Position X="13.75" Y="5.5" Width="1.5" />
+    <Members>
+      <Method Name="~CollisionVolume" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAACAIEAEAAAAAAAAAAAAAggAAIAAA=</HashCode>
+      <FileName>Viridian Engine\CollisionVolume.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundingSphere">
+    <Position X="17.75" Y="6.75" Width="1.5" />
+    <Members>
+      <Field Name="world" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAxAEAAgCAAgAAAAAAIEAgAAIAAAAAAAAAAgAAgIAAA=</HashCode>
+      <FileName>Viridian Engine\BoundingSphere.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mathTools" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OrientedBoundingBox">
+    <Position X="15.5" Y="8.25" Width="1.5" />
+    <Members>
+      <Field Name="center" Hidden="true" />
+      <Field Name="max" Hidden="true" />
+      <Field Name="maxX" Hidden="true" />
+      <Field Name="maxY" Hidden="true" />
+      <Field Name="maxZ" Hidden="true" />
+      <Field Name="min" Hidden="true" />
+      <Field Name="minX" Hidden="true" />
+      <Field Name="minY" Hidden="true" />
+      <Field Name="minZ" Hidden="true" />
+      <Field Name="ptrAABB" Hidden="true" />
+      <Field Name="SquaredScaleFactor" Hidden="true" />
+      <Field Name="world" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="CollisionVolume" FixedFromPoint="true">
+      <Path>
+        <Point X="15.25" Y="7.25" />
+        <Point X="16.25" Y="7.25" />
+        <Point X="16.25" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AHhAkAABEAAwAAAAQAIEAAAgIAAAAAAAAEAgwHIIAAA=</HashCode>
+      <FileName>Viridian Engine\OrientedBoundingBox.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mathTools" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MathTools">
+    <Position X="11.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFCACEAREKABACAAgYEAAQQACECAACAAAAgAgAAgAA=</HashCode>
+      <FileName>Viridian Engine\MathTools.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AxisAlignedBoundingBox">
+    <Position X="20.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AHhAkAAgEAAwAAAAAAIEBAAhMAAAAAAAAEAgwHAIAAA=</HashCode>
+      <FileName>Viridian Engine\AxisAlignedBoundingBox.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mathTools" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

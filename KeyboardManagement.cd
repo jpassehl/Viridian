@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Inputable">
+    <Position X="2.75" Y="6" Width="2" />
+    <Members>
+      <Method Name="~Inputable" Hidden="true" />
+      <Method Name="Inputable" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Inputable::INPUT_EVENT_TYPE">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\Inputable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAgAFBgEAA=</HashCode>
+      <FileName>Viridian Engine\Inputable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingleKeyEventManager">
+    <Position X="5" Y="6" Width="1.5" />
+    <Members>
+      <Method Name="~SingleKeyEventManager" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAGAAAAAIAgAQBAAAEAAAQAAABAIAAAAAgAAAgAAA=</HashCode>
+      <FileName>Viridian Engine\SingleKeyEventManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyboardEventManager">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="KeyboardEventManager::SingleKeyMgrMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\KeyboardEventManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAEAIAAACAAgAAAAAAAAAAAAABAACAAAAgAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\KeyboardEventManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="singleKeyEventMgr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Scene">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="~Scene" Hidden="true" />
+      <Method Name="AddToScene" Hidden="true" />
+      <Field Name="alarmManger" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="RemovefromScene" Hidden="true" />
+      <Method Name="Scene" Hidden="true" />
+      <Method Name="SceneEnd" Hidden="true" />
+      <Field Name="updatableManager" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAQAFgAACAAgggAAhEEgGCAAQBEQAFCAAAAoigAAAAQ=</HashCode>
+      <FileName>Viridian Engine\Scene.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="keyboardEventManager" />
+      <Field Name="commandRegistrationBroker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="KeyDeregistration" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAEQEAAAABAABAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\KeyDeregistration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandBase" Collapsed="true">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\CommandBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyRegistration" Collapsed="true">
+    <Position X="12" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAEQEAAAAAAABAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\KeyRegistration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandRegistrationBroker">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~CommandRegistrationBroker" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Typedef Name="CommandRegistrationBroker::CommandList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\CommandRegistrationBroker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAEAAAIAAAgAACAAAg=</HashCode>
+      <FileName>Viridian Engine\CommandRegistrationBroker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAABAAAAQAAAAAAQAAAAACAAAAABAAgAAIAAAA=</HashCode>
+      <FileName>Viridian Engine\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

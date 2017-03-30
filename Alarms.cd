@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Alarmable">
+    <Position X="7" Y="6.75" Width="1.5" />
+    <Members>
+      <Method Name="Alarmable" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Alarmable::AlarmID">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\Alarmable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABkAAAAEgA=</HashCode>
+      <FileName>Viridian Engine\Alarmable.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="alarmMarkerPtr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Scene">
+    <Position X="1.25" Y="3.5" Width="2" />
+    <Members>
+      <Method Name="~Scene" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Scene" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAQAFgAACAAgggAAhEEgGCAAQBEQAFCAAAAoigAAAAQ=</HashCode>
+      <FileName>Viridian Engine\Scene.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="alarmManger" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CommandBase">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\CommandBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlarmMarker">
+    <Position X="4" Y="7" Width="1.75" />
+    <Members>
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAQAABAAAAAAAAAAAAAAAgAAEABAA=</HashCode>
+      <FileName>Viridian Engine\AlarmMarker.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ptrAlarmable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlarmDeregistration" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAQAAAAAEAIAAAAAAAAAAAAAkAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\AlarmDeregistration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlarmRegistration" Collapsed="true">
+    <Position X="10.75" Y="2.25" Width="2" />
+    <InheritanceLine Type="CommandBase" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="1.853" />
+        <Point X="10" Y="2.058" />
+        <Point X="11.625" Y="2.058" />
+        <Point X="11.625" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAEAIAAAAAAAAAAAQAgAAAAAgA=</HashCode>
+      <FileName>Viridian Engine\AlarmRegistration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlarmManager">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <Members>
+      <Method Name="~AlarmManager" Hidden="true" />
+      <Method Name="AlarmManager" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Typedef Name="AlarmManager::AlarmMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\AlarmManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAIAAAAAAAEAAhAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\AlarmManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandRegistrationBroker" Collapsed="true">
+    <Position X="2.75" Y="1" Width="2.75" />
+    <NestedTypes>
+      <Typedef Name="CommandRegistrationBroker::CommandList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\CommandRegistrationBroker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAEAAAIAAAgAACAAAg=</HashCode>
+      <FileName>Viridian Engine\CommandRegistrationBroker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

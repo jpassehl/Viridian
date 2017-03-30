@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Scene">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~Scene" Hidden="true" />
+      <Method Name="AlarmDeregister" Hidden="true" />
+      <Field Name="alarmManger" Hidden="true" />
+      <Method Name="AlarmRegister" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Field Name="drawableManager" Hidden="true" />
+      <Method Name="DrawDeregister" Hidden="true" />
+      <Method Name="DrawRegister" Hidden="true" />
+      <Field Name="keyboardEventManager" Hidden="true" />
+      <Method Name="KeyDeregister" Hidden="true" />
+      <Method Name="KeyRegister" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Scene" Hidden="true" />
+      <Field Name="updatableManager" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="UpdateDeregister" Hidden="true" />
+      <Method Name="UpdateRegister" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAQAEgAACAAgAgAAgEAAECAAQBEQAFAAAAAoigAAAAA=</HashCode>
+      <FileName>Viridian Engine\Scene.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="commandRegistrationBroker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CommandBase">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\CommandBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject" BaseTypeListCollapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <Members>
+      <Method Name="~GameObject" Hidden="true" />
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAABAAAAQAAAAAAQAAAAAAAAAAABAAgAAIAAAA=</HashCode>
+      <FileName>Viridian Engine\GameObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currScenePtr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CommandRegistrationBroker">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~CommandRegistrationBroker" Hidden="true" />
+      <Method Name="CommandRegistrationBroker" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Typedef Name="CommandRegistrationBroker::CommandList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Viridian Engine\CommandRegistrationBroker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAEAAAIAAAgAACAAAg=</HashCode>
+      <FileName>Viridian Engine\CommandRegistrationBroker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneAddGameObjectCommand">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="~SceneAddGameObjectCommand" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="CommandBase" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="1.603" />
+        <Point X="7" Y="2.062" />
+        <Point X="9.25" Y="2.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAgAAAEAAA=</HashCode>
+      <FileName>Viridian Engine\SceneAddGameObjectCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneRemoveGameObjectCommand">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="~SceneRemoveGameObjectCommand" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="CommandBase" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="1.603" />
+        <Point X="7" Y="3.75" />
+        <Point X="9.25" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAABAAAAAAAAAAEAAACAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Viridian Engine\SceneRemoveGameObjectCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

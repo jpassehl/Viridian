@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Viridian Engine\CameraManager.cpp">
+      <Filter>Viridian Engine\Asset Managers\Camera Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Viridian Engine\ModelManager.cpp">
+      <Filter>Viridian Engine\Asset Managers\Model Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Viridian Engine\ShaderManager.cpp">
+      <Filter>Viridian Engine\Asset Managers\Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Viridian Engine\TextureManager.cpp">
+      <Filter>Viridian Engine\Asset Managers\Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\GameInitalize.cpp">
+      <Filter>Viridian Engine\Viridian Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\LoadResources.cpp">
+      <Filter>Viridian Engine\Viridian Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Viridian Engine\main.cpp">
+      <Filter>Viridian Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\SpaceShipWireFrame.cpp">
+      <Filter>Viridian Engine\User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\SpaceShipTexture.cpp">
+      <Filter>Viridian Engine\User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Cottage.cpp">
+      <Filter>Viridian Engine\User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BoundingSphere.cpp">
+      <Filter>Viridian Engine\User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\WireframeBox.cpp">
+      <Filter>Viridian Engine\User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Viridian Engine\SceneManager.cpp">
+      <Filter>Viridian Engine\Asset Managers\Scene Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\SceneObject.cpp">
+      <Filter>Viridian Engine\User Code\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Viridian Engine\Viridian.cpp">
+      <Filter>Viridian Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Viridian Engine\Scene.cpp">
+      <Filter>Viridian Engine\Asset Managers\Scene Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Viridian Engine\UpdatableManager.cpp">
+      <Filter>Viridian Engine\Game Object\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Viridian Engine\DrawableManager.cpp">
+      <Filter>Viridian Engine\Game Object\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateRegistration.cpp">
+      <Filter>Viridian Engine\Asset Managers\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateDeregistration.cpp">
+      <Filter>Viridian Engine\Asset Managers\Registration</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW">
+      <UniqueIdentifier>{d22a518f-dd11-48ea-8247-bd82c5928233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\include">
+      <UniqueIdentifier>{f1613e77-99f1-482b-bccf-12b6784f3aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\lib">
+      <UniqueIdentifier>{c350b52d-8efa-4eca-a258-d57d45c43245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6">
+      <UniqueIdentifier>{189a2178-2765-49df-b052-8eca24a60d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\lib">
+      <UniqueIdentifier>{841af908-0674-4949-8aa0-292e3e84a88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\include">
+      <UniqueIdentifier>{d2f5d78b-d9cf-4bd9-bd4e-df7522de593c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{fb44cdb2-f236-4b3b-833e-e9e2c3af59cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\lib">
+      <UniqueIdentifier>{23abe339-ce80-4523-b0f0-23747e3f512f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{323b20aa-e08c-4260-84b1-1e85121a9e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{9fcc2c9b-3e4f-4ab2-a0c5-3099cdf90300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\lib">
+      <UniqueIdentifier>{ea7cbe8f-1aeb-4ad2-bd4e-fa300408bd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{5d126765-1977-4213-89fb-e004f6468da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore">
+      <UniqueIdentifier>{d3f91089-c7e6-474d-8376-afd372d35a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\lib">
+      <UniqueIdentifier>{8a854cfc-9294-4797-b476-0b2feacdd62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\include">
+      <UniqueIdentifier>{60eabb98-a714-4df4-8fa1-3fb92ea55bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine">
+      <UniqueIdentifier>{b4d6b70d-3023-4908-8cc3-639609b2a39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code">
+      <UniqueIdentifier>{90b3cd98-3f16-4a7a-9f1a-c6da58fe7ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Asset Managers">
+      <UniqueIdentifier>{9160d6aa-6bc1-4fd8-a0d6-91df03c98291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Asset Managers\Model Manager">
+      <UniqueIdentifier>{77c9df84-0d3d-45ac-ba48-1a894533be8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Asset Managers\Shader Manager">
+      <UniqueIdentifier>{c313ceaf-fe8c-435e-a63a-f31956d0aff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Asset Managers\Texture Manager">
+      <UniqueIdentifier>{02161770-3884-4954-9997-70ddea719edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Asset Managers\Camera Manager">
+      <UniqueIdentifier>{564a74d1-68e2-4144-825d-c99bf808e055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Game Object">
+      <UniqueIdentifier>{cb05b87a-70a4-4c82-9d46-241adb61dd9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Game Object\Update">
+      <UniqueIdentifier>{acbc383e-4572-409d-9e1e-4fbbd0733f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Game Object\Draw">
+      <UniqueIdentifier>{cc1223be-0684-4ac4-b119-14a6b803496d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Viridian Resources">
+      <UniqueIdentifier>{6dfc777f-37e1-4057-8b4e-116b41573476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\User Code">
+      <UniqueIdentifier>{936c96ca-e7d0-44c6-a94a-33f0455efbe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Asset Managers\Scene Manager">
+      <UniqueIdentifier>{de9d0f20-7194-4a66-be38-5d0089e6dd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\User Code\Scene">
+      <UniqueIdentifier>{e3439e08-2c90-420b-b55c-67e384ace738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diagrams">
+      <UniqueIdentifier>{fddf1a60-a2e3-4da3-bc33-aa95e2063c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Asset Managers\Scene Manager\Registration">
+      <UniqueIdentifier>{b06e3918-b394-4c0c-8bdb-47362c69c7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viridian Engine\Asset Managers\Registration">
+      <UniqueIdentifier>{170a0fd3-0f10-4e96-90ab-bd947b50dd57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h">
+      <Filter>_Libs\GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\arcball.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\object.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\shader.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\vmath.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Align16.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Image.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Model.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Quat.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\QuatApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\VectApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\CameraManager.h">
+      <Filter>Viridian Engine\Asset Managers\Camera Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\ModelManager.h">
+      <Filter>Viridian Engine\Asset Managers\Model Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\ShaderManager.h">
+      <Filter>Viridian Engine\Asset Managers\Shader Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\TextureManager.h">
+      <Filter>Viridian Engine\Asset Managers\Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\GameObject.h">
+      <Filter>Viridian Engine\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\SpaceShipWireFrame.h">
+      <Filter>Viridian Engine\User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\SpaceShipTexture.h">
+      <Filter>Viridian Engine\User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Cottage.h">
+      <Filter>Viridian Engine\User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BoundingSphere.h">
+      <Filter>Viridian Engine\User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\WireframeBox.h">
+      <Filter>Viridian Engine\User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\Scene.h">
+      <Filter>Viridian Engine\Asset Managers\Scene Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\SceneManager.h">
+      <Filter>Viridian Engine\Asset Managers\Scene Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\SceneObject.h">
+      <Filter>Viridian Engine\User Code\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\Viridian.h">
+      <Filter>Viridian Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\Updatable.h">
+      <Filter>Viridian Engine\Game Object\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\UpdatableManager.h">
+      <Filter>Viridian Engine\Game Object\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Viridian Engine\DrawableManager.h">
+      <Filter>Viridian Engine\Game Object\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandBase.h">
+      <Filter>Viridian Engine\Asset Managers\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateRegistration.h">
+      <Filter>Viridian Engine\Asset Managers\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateDeregistration.h">
+      <Filter>Viridian Engine\Asset Managers\Registration</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs\GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs\SB6\lib</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs\File\lib</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs\Math\lib</Filter>
+    </Library>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib">
+      <Filter>_Libs\AzulCore\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ViridianDiagram.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+  </ItemGroup>
+</Project>
